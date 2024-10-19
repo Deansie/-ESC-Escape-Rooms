@@ -97,7 +97,7 @@ body {
         margin: 1rem;
         
     }
-    .para1 {
+    .article1__para1 {
         font-style: oblique;
         font-size: 120%;
         font-weight: 500;
@@ -105,9 +105,39 @@ body {
         margin-bottom: 0.4rem;
     }
 
-    .para2 {
+    .article1__para2 {
         margin-top: 0.4rem;
         font-size: 87%;
         font-weight: 500;
+    }
+
+
+}
+
+.article2 {
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    margin-top: 2rem;
+
+    .article2__para1 {
+        font-size: 150%;
+        font-weight: 500;
+    }
+
+    
+}
+
+.swipe {
+    display: block;
+
+    margin-top: 2rem;
+
+    .swipe__content1 {
+        border-color: rgb(250, 57, 57);
+        border: 20px;
+        img {
+            width: 100%
+        }
     }
 }
