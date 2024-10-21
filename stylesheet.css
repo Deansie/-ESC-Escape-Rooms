@@ -271,3 +271,52 @@ body {
     }
 }
 
+    .article4 {
+        display: block;
+        padding-right: 0.8rem;
+        padding-bottom: 0.6rem;
+        text-align: left;
+
+        .article4__headline {
+            font-size: 140%;
+            font-weight: 800;
+            padding-left: 0.8rem;
+            padding-right: 0.8rem;
+
+        }
+
+        .article4__content {
+            font-size: 113%;
+            font-weight: 500;
+            padding-left: 0.8rem;
+            padding-right: 0.8rem;
+            padding-bottom: 1rem;
+
+        }
+
+        .article4__book {
+            padding-left: 1rem;
+            padding-bottom: 2rem;
+        }
+        
+        button {
+            color: #ffff;
+            background-color: #E3170A;
+            border-color: solid #E3170A;
+            border-radius: 4px;
+            border: 0;
+            width: 15rem;            
+            height: 3rem;
+            font-weight: 800;
+            font-size: 100%;
+        }
+
+        img {
+            line-height: 0;
+            font-size: 0;
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
+        }
+
+    }
+
