@@ -7,7 +7,8 @@ body {
     margin: 0;
     width: 100%;
     max-width: 100%;
-    overflow-x: hidden;
+    overflow: scroll;
+    
     
 }
 
@@ -34,7 +35,7 @@ body {
     
 }
 
-.headline {
+.header__headline {
     margin: -0.05rem;
     margin-left: -0.7rem;
     max-width: 6rem;
@@ -42,13 +43,13 @@ body {
 }
 
 
-.logotype {
+.header__logotype {
     margin: 1.3rem;
     max-height: 70%;
     
 }
 
-.mainImg {
+.figure {
     line-height: 0;
     font-size: 0;
     width: 100vw;
@@ -61,11 +62,11 @@ body {
     }
 }
 
-.onsiteOnline {
+.section1 {
     text-align: center;
     display: block;
 
-    .onsiteChallenges {
+    .section1__button {
         background-color: #8ACFE5;
         border: 0;
         border-radius: 4px;
@@ -271,21 +272,24 @@ body {
     }
 }
 
-    .article4 {
-        display: block;
-        padding-right: 0.8rem;
-        padding-bottom: 0.6rem;
-        text-align: left;
+.article4, 
+.article5 {
+    display: block;
+    padding-right: 0.8rem;
+    padding-bottom: 0.6rem;
+    text-align: left;
 
-        .article4__headline {
-            font-size: 140%;
+        .article4__headline, 
+        .article5__headline {
+            font-size: 145%;
             font-weight: 800;
             padding-left: 0.8rem;
             padding-right: 0.8rem;
 
         }
 
-        .article4__content {
+        .article4__content,
+        .article5__content {
             font-size: 113%;
             font-weight: 500;
             padding-left: 0.8rem;
@@ -294,7 +298,8 @@ body {
 
         }
 
-        .article4__book {
+        .article4__book,
+        .article5__challenges {
             padding-left: 1rem;
             padding-bottom: 2rem;
         }
@@ -311,12 +316,63 @@ body {
             font-size: 100%;
         }
 
-        img {
+        .article4__img,
+        .article5__img {
             line-height: 0;
             font-size: 0;
             width: 100vw;
             margin-left: calc(-50vw + 50%);
+            
+            img {
+                width: 100%;
+                display: block;
+                object-fit: cover;
+            }
         }
 
     }
+
+.article5 {
+    padding-bottom: 2rem;
+}
+
+.footer {
+    background-color: #011827;
+    color: #ffff;
+    display: block;
+    padding-right: 0.8rem;
+    padding-bottom: 0.6rem;
+    text-align: left;
+    font-weight: 500;
+    font-size: 80%;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+
+    .footer__headline {
+        font-weight: 800;
+        margin-bottom: 0rem;
+    }
+
+    .footer__nav__headline {
+        font-weight: 800;
+        padding-top: 1rem;
+    }
+
+    .footer__nav__followus {
+        font-weight: 800;
+        padding-top: 1.3rem;
+        
+    }
+
+    ul {
+        list-style: none;
+        padding-inline-start: 0rem;
+    }
+
+    .footer__whitespace {
+        padding-top: 1rem;
+    }
+}
 
