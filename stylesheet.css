@@ -246,4 +246,28 @@ body {
     background-color: #011827;
     height: 20rem;
     color: #ffff;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    font-size: 134%;
+    font-weight: 500;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+
+    p {
+        padding-bottom: 1rem;
+    }
+
+    .article3__fullStory {
+        color: #8ACFE5;
+        background-color: #011827;
+        border: solid 2px #8ACFE5;
+        border-radius: 4px;
+        width: 15rem;            
+        height: 3rem;
+        font-weight: 700;
+        font-size: 87%;
+        
+    }
 }
+
