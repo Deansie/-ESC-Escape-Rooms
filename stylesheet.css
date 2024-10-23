@@ -264,8 +264,8 @@ body {
         background-color: #011827;
         border: solid 2px #8ACFE5;
         border-radius: 4px;
-        width: 15rem;            
-        height: 3rem;
+        width: 16rem;            
+        height: 3.5rem;
         font-weight: 700;
         font-size: 87%;
         
@@ -376,3 +376,235 @@ body {
     }
 }
 
+
+
+
+@media (max-width: 768px) {
+    
+    .desktop__nav,
+    .desktop__section1,
+    .desktop__article1,
+    .desktop__section2 {
+        display: none;
+    }
+
+    .
+
+}
+
+
+
+@media (min-width: 769px) {
+
+    .container,
+    .figure {
+        max-width: 1070px;
+        margin: 0 auto;
+    }
+
+    article {
+        max-width: 1070px;
+        margin: 0 auto;
+    }
+   
+
+    .header__headline {
+        margin-left: -0.1rem;
+        margin-top: 0.6rem;
+        min-width: 25rem;
+        font-size: 180%;
+        
+        }
+
+    .desktop__nav {
+        color: #ffff;
+        background-color: #011827;
+
+        li {
+            display: inline-flex;
+            font-size: 125%;
+            font-weight: 700;
+            padding: 2.8rem;
+            
+    
+        }
+
+        ul {
+            list-style-type: none;
+            text-align: center;
+            margin-left: -3rem;
+            margin-top: -2rem;
+            margin-bottom: -1.5rem;            
+        }
+    }
+    
+    .section1 {
+        display: none;
+    }
+
+    .desktop__section1 {
+        display: flex;
+        flex: auto;
+        justify-content: center;
+        margin-top: -2rem;
+        
+        div {
+            margin-right: 0.4rem;
+            padding-left: 0.4rem;
+        }
+    }
+
+    .desktop__section1__button__online {
+        color: #ffff;
+        background-color: #E3170A;
+        border-color: solid #E3170A;
+        border-radius: 4px;
+        border: 0;
+        width: 16rem;            
+        height: 3.5rem;
+        font-weight: 900;
+        font-size: 120%;
+    }
+
+    .desktop__section1__button__onsite {
+        background-color: #8ACFE5;
+        border: 0;
+        border-radius: 4px;
+        font-size: 120%;
+        font-weight: 900;
+        width: 16rem;
+        height: 3.5rem;
+    }
+
+    .article1 {
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+        margin-top: 2rem;
+
+    }
+
+    .article1 {
+        display: none;
+    }
+
+    .desktop__article1 {
+    
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+        width: 73vw;
+        margin-left: calc(-45vw + 50%);
+        margin-top: 5rem;
+        padding-top: 4rem;
+        max-width: 1070px; 
+        margin: 0 auto; 
+        gap: -1rem; 
+        
+        img {
+            width: 5rem;
+            height: 5rem;
+            margin: 1rem;
+            
+        }
+        .article1__para1 {
+            font-style: oblique;
+            font-size: 120%;
+            font-weight: 500;
+            margin-right: 1.5rem;
+            margin-bottom: 0.4rem;
+        }
+    
+        .article1__para2 {
+            margin-top: 0.4rem;
+            font-size: 87%;
+            font-weight: 500;
+        }
+    
+    
+    }
+
+    .article2 {
+
+        .article2__para1 {
+
+            font-size: 180%;
+            padding-bottom: 2rem;
+        }
+    }
+
+    .swipe {
+        gap: 2rem;
+    }
+
+    .desktop__section2 {
+        display: flex;
+        flex: auto;
+        justify-content: center;
+        margin-top: 3rem;
+        padding-bottom: 2rem;
+        
+        div {
+            margin-right: 0.4rem;
+            padding-left: 0.4rem;
+        }
+    }
+
+    .article3 {
+        padding-top: 5rem;
+        font-size: 140%;
+        font-weight: 400;
+        
+        div {
+            max-width: 30rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .article4 {
+        display: inline-flex;
+
+        img {
+            height: 30vw;
+        }
+       
+    }
+
+    .article5 {
+        display: inline-flex;
+        flex-direction: row-reverse;
+        max-width: 1200px; 
+        margin: 0 auto;
+      }
+      
+      .article5 div {
+        flex: 1;
+        padding: 3rem;
+      }
+      
+      .article5 img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .article4__contentspan,
+    .article5__contentspan {
+        padding: 4rem;
+    }
+
+
+
+  
+    
+  
+    
+    
+    
+
+   
+
+}
