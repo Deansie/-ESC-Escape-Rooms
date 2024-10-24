@@ -389,8 +389,6 @@ body {
         display: none;
     }
 
-    .
-
 }
 
 
@@ -427,6 +425,7 @@ body {
             font-weight: 700;
             padding: 2.8rem;
             
+            
     
         }
 
@@ -437,6 +436,13 @@ body {
             margin-top: -2rem;
             margin-bottom: -1.5rem;            
         }
+    }
+
+    .desktop__nav:hover {
+        li:hover {
+            color: #8ACFE5;
+        }
+        
     }
     
     .section1 {
@@ -567,7 +573,7 @@ body {
     .article5 {
         display: flex;
         max-width: 1070px;
-        margin: 0 auto;
+        
     }
 
     .article5 {
@@ -586,7 +592,8 @@ body {
         padding-top: 1.5rem;
         padding-left: 5rem;
         padding-right: 5rem;
-        max-width: 34%;
+        width: 60%;
+        height: auto;
         font-size: 105%;
 
         button {
@@ -595,10 +602,10 @@ body {
     }
 
     .article5__contentspan {
-        padding-left: 5rem;
+        
         padding-right: 5rem;
-        max-width: 35.7%;
-        min-width: 35.7%;
+        width: 70%;
+        height: auto;
         margin-top: -5rem;
         font-size: 105%;
         
@@ -606,34 +613,68 @@ body {
 
     .article4 {
         img {
+            height: 110%;
             
-            min-height: 110%;
         }
     }
 
     .article5 {
+
+        margin-left: 8rem;
         img {
-            min-width: 100%;
-            max-width: 100%;
+            width: 10rem;
+            height: auto;
             margin-right: 3rem;
             padding-top: 1.5rem;
             padding-bottom: 7.5rem;
         }
     }
 
+    .footer {
+        display: inline-flex;
+    }
+
+    .footer__headline {
+        font-size: 115%;
+        margin-left: 5rem;
+        margin-top: 5.8rem;
+    }
+
+    .footer__content {
+        max-width: 36%;
+        font-size: 115%;
+        font-weight: 400;
+        margin-left: 5rem;
+        margin-top: 0.4rem;
+    }
+
+    .footer__nav__headline {
+        margin-top: 4.6rem;
+        margin-left: -26.7rem;
+        margin-bottom: -0.5rem;
+        font-size: 110%;
+    }
+
+    .footer__nav__list1 {
+        margin-left: -26.7rem;
+        font-size: 110%;
+        font-weight: 500;
+    }
+
+    .footer__nav__followus {
+        margin-top: -9.7rem;
+        margin-left: -15.5rem;
+        font-size: 110%;
+        margin-bottom: -0.5rem;
+    }
+
+    .footer__nav__list2 {
+        margin-left: -15.5rem;
+        font-size: 110%;
+        font-weight: 400;
+        padding-bottom: 9rem;
+    }
+
 }
 
-    
 
-
-
-  
-    
-  
-    
-    
-    
-
-   
-
-}
