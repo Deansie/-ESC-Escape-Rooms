@@ -26,6 +26,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    position: relative;
     margin: auto;
     padding-bottom: 0.5rem;
 
@@ -37,6 +38,7 @@ body {
 }
 
 .header__headline {
+    right: 1rem;
     margin: -0.05rem;
     margin-left: -0.7rem;
     max-width: 6rem;
@@ -48,6 +50,22 @@ body {
     margin: 1.3rem;
     max-height: 70%;
     
+}
+
+.header__nav {
+    position: absolute;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    top: 0;
+    right: 0;
+
+    div {
+        background-color: white;
+        margin-top: 0.37rem;
+        width: 2.5rem;
+        height: 0.26rem;
+        border-radius: 2px;
+    }
 }
 
 .figure {
