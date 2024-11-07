@@ -18,6 +18,7 @@ body {
     max-width: 100%;
     padding: 0;
     margin: 0;
+
 }
 
 .header {
@@ -62,6 +63,7 @@ body {
     div {
         background-color: white;
         margin-top: 0.37rem;
+        margin-right: 0.1rem;
         width: 2.5rem;
         height: 0.26rem;
         border-radius: 2px;
@@ -72,12 +74,14 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 90%;
-    height: 90%;
+    width: 91%;
+    height: 96%;
+    outline: 2rem solid rgba(255, 255, 255, 0.5);
     background-color:#011827;
-    z-index: 1000;
+    z-index: 1;
     display: none;
     transform: translate(-50%, -50%);
+    
 }
 
 .mobile__nav.openMenu {
@@ -91,6 +95,11 @@ body {
     top: 0;
     right: 0;
     color: white;
+    font-size: 3.2rem;
+    margin-right: 0.8rem;
+    margin-top: 0.5rem;
+    
+    
 }
 
 .mobile__nav__links {
@@ -103,7 +112,9 @@ body {
 .mobile__nav__links a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    padding: 0.8rem;
+    font-size: 1.7rem;
+    font-weight: 800;
 }
 
 .figure {
