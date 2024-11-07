@@ -745,12 +745,12 @@ body {
 
 @keyframes fadeOut {
     0% { opacity: 100%; }
-    100% { opacity: 50%; }
+    100% { opacity: 90%; }
     
 }
 
 .container.fade-out {
     animation-name: fadeOut;
-    animation-duration: 0.4s;
+    animation-duration: 0.20s;
     animation-fill-mode: both;
 }
