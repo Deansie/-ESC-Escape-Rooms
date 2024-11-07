@@ -6,10 +6,8 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
-    max-width: 100%;
-    overflow: scroll;
-    
-    
+    max-width: 100%;  
+    overflow-x: hidden;
     
 }
 
@@ -30,7 +28,7 @@ body {
     position: relative;
     margin: auto;
     padding-bottom: 0.5rem;
-
+    
     img {
         max-height: 4rem;
         width: auto;
@@ -81,7 +79,7 @@ body {
     z-index: 1;
     display: none;
     transform: translate(-50%, -50%);
-    
+
 }
 
 .mobile__nav.openMenu {
@@ -98,7 +96,6 @@ body {
     font-size: 3.2rem;
     margin-right: 0.8rem;
     margin-top: 0.5rem;
-    
     
 }
 
