@@ -83,9 +83,9 @@ body {
 }
 
 .mobile__nav.openMenu {
-    display: flex;
-    justify-content: center;
+    display: block;
     align-items: center;
+    align-content: center;
 }
 
 .mobile__nav__close {
@@ -741,4 +741,16 @@ body {
 
 }
 
+/* -- Animations -- */
 
+@keyframes fadeOut {
+    0% { opacity: 100%; }
+    100% { opacity: 50%; }
+    
+}
+
+.container.fade-out {
+    animation-name: fadeOut;
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+}
